@@ -10,7 +10,8 @@ $ npm run test
 
 # ... test fails ⛔
 
-$ npm install firebase-tools@9 && npm run test
+$ npm install firebase-tools@9
+$ npm run test
 
 # ... test works ✅
 
