@@ -1,5 +1,7 @@
 # Firebase CLI v10 module error with Jest
 
+Recreation of firebase/firebase-tools#4321
+
 This repo recreates a firebase-tools module issue when running unit tests with Jest that import the `firebase-tools` module in a node script. In the `functions/src` directory is a sample cloud function used for recursively deleting a collection. This was built based on the [example](https://firebase.google.com/docs/firestore/solutions/delete-collections) for deleting collections from a cloud function.
 
 To see the issue, run the `npm run test` command first with the `firebase-tools` version 10 installed (default), then install firebase-tools version 9 and re-run `npm run test`.
