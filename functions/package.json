@@ -8,7 +8,7 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "test": "npm run build && firebase emulators:exec \"jest\""
+    "test": "npm run build && jest --clearCache && firebase --project=fakeproject emulators:exec \"jest\""
   },
   "engines": {
     "node": "16"
